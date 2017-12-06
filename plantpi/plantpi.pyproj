@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>ae52f064-fe9d-461e-aa14-ff1a6f29d097</ProjectGuid>
+    <ProjectGuid>e8f55c15-19f6-4f47-a1ea-47cc5a0e642f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>plantpi.py</StartupFile>
     <SearchPath>
@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>plantpi</Name>
     <RootNamespace>plantpi</RootNamespace>
+    <InterpreterId>Global|PythonCore|2.7</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="plantpi.py" />
+    <Compile Include="MySQLdb connect and write.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|2.7" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

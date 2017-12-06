@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+VisualStudioVersion = 15.0.27130.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "plantpi", "plantpi.pyproj", "{AE52F064-FE9D-461E-AA14-FF1A6F29D097}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "plantpi", "plantpi.pyproj", "{E8F55C15-19F6-4F47-A1EA-47CC5A0E642F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AE52F064-FE9D-461E-AA14-FF1A6F29D097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE52F064-FE9D-461E-AA14-FF1A6F29D097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8F55C15-19F6-4F47-A1EA-47CC5A0E642F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8F55C15-19F6-4F47-A1EA-47CC5A0E642F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E41B5DBB-33FA-4A9C-A1A4-C637B5059B74}
+		SolutionGuid = {71625A2E-399A-4DDF-9FEC-425A399A891C}
 	EndGlobalSection
 EndGlobal
