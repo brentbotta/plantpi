@@ -10,17 +10,16 @@ cnx = mysql.connector.connect(user='pi', password='#Bl0nd13007',
                               database='plantpi')
 cursor = cnx.cursor()
 
-
-
-
 #MySQLdb insert record
-#looping for fun
 for x in range(0, 5):
     add_temp = ("INSERT INTO temp (degree) VALUES (%s)") % x
     cursor.execute(add_temp)
     cnx.commit()
 
-
+#MySQLdb print total row count
+cursor.execute ("SELECT COUNT(*) FROM temp")
+total_records = cursor.fetchone()
+print total_records[0]
 
 #MySQLdb connection close
 cursor.close()
