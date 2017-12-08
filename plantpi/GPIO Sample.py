@@ -1,15 +1,15 @@
-import RPi.GPIO as GPIO
+import RPi.GPIO as GPIO, time
 
 ledChannel = 13
 
-GPIO.setmode(GPIO.BOARD)
+GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
 #set channel to board number
 #GPIO.setup(channel, GPIO.IN)
 GPIO.setup(ledChannel, GPIO.OUT)
 
-GPIO.setup(ledChannel, GPIO.OUT, initial=GPIO.LOW)
+GPIO.output(ledChannel, False)
 print("Channel 13 set to LOW")
 
 #read value of channel
