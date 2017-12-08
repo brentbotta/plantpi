@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="GPIO Sample.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MySQLdb connect and write.py" />
     <Compile Include="plantpi.py" />
   </ItemGroup>
