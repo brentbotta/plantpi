@@ -25,6 +25,9 @@
     <Compile Include="GPIO Sample.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="LED.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MySQLdb connect and write.py" />
     <Compile Include="plantpi.py" />
   </ItemGroup>
