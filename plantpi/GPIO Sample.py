@@ -9,7 +9,7 @@ GPIO.setwarnings(False)
 #GPIO.setup(channel, GPIO.IN)
 GPIO.setup(ledChannel, GPIO.OUT)
 
-GPIO.output(ledChannel, HIGH)
+GPIO.output(ledChannel, True)
 print("Channel 13 set to LOW")
 
 #read value of channel
